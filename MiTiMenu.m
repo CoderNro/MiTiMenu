@@ -23,7 +23,6 @@
     if (!self) return nil;
 
     self.userInteractionEnabled = YES;
-    self.windowLevel = UIWindowLevelAlert + 100;
 
     // ── Links ──
     self.links = @[
